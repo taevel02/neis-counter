@@ -29,7 +29,6 @@ body {
     margin: 0;
     padding: 0;
     font-family: 'Noto Sans KR';
-    height: 100vh;
 }
 
 .center {
@@ -112,4 +111,22 @@ td {
 .footbar_content {
     width: 800px;
     margin: 0 auto;
+}
+
+@media (max-width: 480px) {
+    .center {
+        position: relative;
+        width: 480px;
+        margin: 30px;
+        left: 0;
+        top: 0;
+    }
+
+    .counter {
+        width: 480px;
+    }
+
+    .footbar {
+        display: none;
+    }
 }
